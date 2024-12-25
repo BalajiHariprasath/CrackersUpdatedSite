@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List with Cart</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css"> <!-- Separate styles -->
+</head>
+<body>
+    <div class="main-content">
+        <header>
+            <h1>Product List</h1>
+        </header>
+        
+        <div class="product-container" id="product-container">
+            <!-- Product cards will be dynamically added here -->
+        </div>
+    </div>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <div class="cart-items" id="cart-items">
+            <!-- Items will be added dynamically here -->
+        </div>
+        <div class="cart-total" id="cart-total">
+            Total: $0
+        </div>
+        <button id="checkout-button" class="checkout-button">Checkout</button>
+    </div>
+    <script src="scripts.js"></script>
+    <script>
+        document.getElementById('checkout-button').addEventListener('click', function() {
+            // Simulate order processing and Excel generation
+            setTimeout(function() {
+                alert('Order successful! Your Excel file has been generated.');
+                window.location.href = 'index.html'; // Updated URL
+            }, 1000); // Simulate delay
+        });
+    </script>
+</body>
+</html>

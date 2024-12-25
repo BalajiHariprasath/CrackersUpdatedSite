@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css"> <!-- Separate login styles -->
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="company-name">CrackersWorld</h1>
+        <h2>Login Page</h2>
+        <form id="login-form"> 
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="mobile">Mobile Number:</label>
+            <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}">
+            <button type="submit">Login</button>
+        </form>
+        <div id="error-message" class="error-message"></div>
+    </div>
+    <script src="login.js"></script> <!-- Separate login script -->
+</body>
+</html>

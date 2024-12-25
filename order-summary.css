@@ -1,0 +1,33 @@
+/* ...existing code... */
+
+.order-summary {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.order-summary h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #FF5722;
+}
+
+.order-summary .amount-summary {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.order-summary .amount-summary .label {
+    font-weight: bold;
+}
+
+.order-summary .amount-summary .value {
+    float: right;
+}
+
+/* ...existing code... */
